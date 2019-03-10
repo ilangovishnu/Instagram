@@ -10,6 +10,7 @@
 		1AA346A5A00DD5210E9FB296 /* Pods_ParstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3154612D6BF9CCF34EB6A7C /* Pods_ParstagramTests.framework */; };
 		70E0FF0F8B689248885D48ED /* Pods_ParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E93112DE601C5C9344BAA69 /* Pods_ParstagramUITests.framework */; };
 		ADCA91A4F79F828960A677AC /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CC8FD32EF6C3CFD73D2534 /* Pods_Parstagram.framework */; };
+		DE8EAAFD22348D7000E13739 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8EAAFC22348D7000E13739 /* CommentCell.swift */; };
 		DEEA80022231DA5B00B148FF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEA80012231DA5B00B148FF /* LoginViewController.swift */; };
 		DEEA80042231DA8400B148FF /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEA80032231DA8400B148FF /* FeedViewController.swift */; };
 		DEEA80062231EE0800B148FF /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEA80052231EE0800B148FF /* CameraViewController.swift */; };
@@ -49,6 +50,7 @@
 		8C6AD944C42C363D364EE84D /* Pods-ParstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParstagramTests/Pods-ParstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		955CC60CD0FBEE25B5F31DDE /* Pods-ParstagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParstagramTests/Pods-ParstagramTests.release.xcconfig"; sourceTree = "<group>"; };
 		C3154612D6BF9CCF34EB6A7C /* Pods_ParstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8EAAFC22348D7000E13739 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		DEEA80012231DA5B00B148FF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DEEA80032231DA8400B148FF /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		DEEA80052231EE0800B148FF /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				DEEA80032231DA8400B148FF /* FeedViewController.swift */,
 				DEEA80052231EE0800B148FF /* CameraViewController.swift */,
 				DEEA8007223200AC00B148FF /* PostCell.swift */,
+				DE8EAAFC22348D7000E13739 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -392,6 +396,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +416,7 @@
 				DEEA80042231DA8400B148FF /* FeedViewController.swift in Sources */,
 				DEF8636E2231BCA300454054 /* AppDelegate.swift in Sources */,
 				DEEA8008223200AC00B148FF /* PostCell.swift in Sources */,
+				DE8EAAFD22348D7000E13739 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
